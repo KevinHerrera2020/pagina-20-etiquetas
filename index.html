@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title> MIPROGRA </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+                <style>
+                   body
+                   {
+                       font-family: Arial;
+                   }
+                    
+                </style>
+                <style>
+                .slider
+                    {
+                        background: url("imagen/9");
+                        height: 100vh;
+                        background-size: cover;
+                        background-position: center;
+                    }
+                </style>
+    </head>
+        <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">PROGRAMACION</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Registro</a>
+    </div>
+  </div>
+  
+  <ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Iniciar Sesión</a>
+  </li>
+  </ul>
+</nav>
+            <section class="container-fluid slider">
+            <div style="width: 100%;">
+                <div class="row">
+                    <div class="col-12">
+                        <center><div><strong>Registro</strong></div></center>
+                        <form action="index.html" method="post"> 
+                            <div class="form-group row mx-5 justify-content-center">
+                               <label for="name" class=" col-form-label mx-2"> Nombres:   </label>
+                               <input type="text" placeholder="Ingrese su nombre" name ="Nombres" class="form-control col-4">
+                                      
+                            </div>
+                            <div class="form-group row mx-5 justify-content-center">
+                                <label for="name" class=" col-form-label mx-2"> Apellidos:   </label>
+                                <input type="text" placeholder="Ingrese su apellido" name ="Apellidos" class="form-control col-4">
+                            </div>
+                            <div class="form-group row mx-5 justify-content-center">
+                                <label for="name" class=" col-form-label mx-2"> Genero:   </label>
+                                <select class="form-control col-4">
+                                    <option>Hombre</option>
+                                    <option>Mujer</option>
+                                </select>
+                            </div>
+                            <div class="form-group row mx-5 justify-content-center">
+                                <label for="name" class=" col-form-label mx-2"> Telefono:   </label>
+                                <input type="text" placeholder="Ingrese su numero telefonico" name ="Telefono" class="form-control col-4">
+                            </div>
+                            <center>
+                            <div class="form-group">
+                            <input type="submit" class="btn btn-success" value="Enviar">
+                        </div>
+                            </center>
+                    </form>
+                </div>
+            </div>
+        </div>
+                </section>
+    </body>
+</html>
